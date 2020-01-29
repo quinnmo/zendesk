@@ -50,7 +50,7 @@ view: organizations {
   }
 
   dimension: group_id {
-    type: yesno
+    type: number
     sql: ${TABLE}.group_id ;;
   }
 
